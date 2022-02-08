@@ -1,0 +1,53 @@
+{
+  "name": "node-js-rest-api",
+  "version": "1.0.0",
+  "description": "A Nodejs demo for IBM Connect 2016",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "yarn jest",
+    "test cubumber": "cucumber-js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-arriaga/node-js-rest-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "restful",
+    "api",
+    "expressjs"
+  ],
+  "author": "Alex Arriaga",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/alex-arriaga/node-js-rest-api/issues"
+  },
+  "homepage": "https://github.com/alex-arriaga/node-js-rest-api#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.11",
+    "@types/faker": "^5.5.5",
+    "@types/knex": "^0.16.1",
+    "faker": "^5.5.3",
+    "uuid": "^8.3.2"
+  },
+  "dependencies": {
+    "@vscode/sqlite3": "^5.0.7",
+    "bcrypt": "^5.0.1",
+    "better-sqlite3": "^7.5.0",
+    "cucumber": "^7.0.0-rc.0",
+    "dotenv": "^9.0.2",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^27.4.7",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.6",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "pg": "^8.6.0",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.2"
+  }
+}
